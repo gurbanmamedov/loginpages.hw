@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.content-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  padding-top: 15px;
+}
+
+.login-page1 {
+  width: 1400px;
+  height: 900px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  overflow: hidden;
+}
+.login-page-left {
+  width: 100%;
+  padding: 88px 90px 127px 88px;
+}
+.top-content1 {
+  margin-bottom: 40px;
+}
+
+.top-content1 > h3 {
+  color: #333;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.top-content1 > p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content1-span {
+  color: #111;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.mid-content1 {
+  width: 100%;
+}
+.mid-content-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-content-form > input {
+  height: 56px;
+  margin-bottom: 32px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+}
+
+.mid-content-form > label {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.under-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.under-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 8px 8px 0;
+}
+
+.under-title > p {
+  color: rgba(102, 102, 102, 0.6);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.under-mid {
+  margin-bottom: 32px;
+}
+
+.under-title > img {
+  width: 8px;
+  height: 8px;
+}
+.checkbox-content {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.checkbox-content > img {
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-content > p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.policy {
+  margin-bottom: 32px;
+}
+
+.policy > p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.terms-span {
+  color: #111;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.create-account-btn {
+  padding: 15px 30px;
+  border-radius: 32px;
+  opacity: 0.25;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.log-in-text {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-span {
+  color: #111;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+/*Second page*/
+
+.login-page2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  padding-top: 20px;
+}
+
+.login-page2-content {
+  width: 1400px;
+  height: 900px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  overflow: hidden;
+}
+
+.lp-2-right {
+  width: 100%;
+  padding: 88px 90px 127px 88px;
+}
+
+.lp2-uf-title {
+  margin-bottom: 32px;
+}
+
+.lp2-terms {
+  margin-bottom: 32px;
+}
+
+.lp2-uf-title > p {
+  color: #666;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lp2-recapcha {
+  width: 363px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 24px 10.714px 24px;
+  border-radius: 18px;
+  border: 1px solid #333;
+  margin-bottom: 32px;
+}
+
+.lp2-cb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.recapcha-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recapcha-img > img {
+  width: 48px;
+  height: 48px;
+}
